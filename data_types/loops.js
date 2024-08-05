@@ -33,3 +33,14 @@ console.log("-------")
 for (let emp of employees) {
     console.log(emp.name)
 }
+const value = "addddd"
+switch (value) {
+    case "add":
+        console.log("add called")
+        break
+    case "sub":
+        console.log("sub called")
+        break;
+    default:
+        console.log("no match")
+}
